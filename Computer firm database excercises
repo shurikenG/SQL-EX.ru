@@ -107,5 +107,6 @@ WHERE Laptop.price > 1000
 
 # 13
 # Find out the average speed of the PCs produced by maker A.
+
 SELECT AVG(PC.speed) FROM PC JOIN Product
 ON Product.maker = 'A' AND Product.model = PC.model
